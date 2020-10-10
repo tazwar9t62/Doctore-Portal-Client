@@ -18,7 +18,7 @@ const Services = () => {
 ];
 
     return (
-       <section className="service-container mt-5">
+       <section style={{height:"500px"}} className="service-container mt-5">
            <div className="text-center">
                <h5 style={{color: '#1cc7c1'}}>OUR SERVICES</h5>
                <h2 style={{color: '#3a4256'}}>Services We Provide</h2>
