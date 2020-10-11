@@ -28,6 +28,29 @@
   color: #61dafb;
 }
 
+.text-brand {
+  color: #1cc7c1;
+}
+.btn-brand {
+  cursor: pointer;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #1cc7c1 0%,
+    #3a4256 51%,
+    #1cc7c1 100%
+  );
+  transition: 0.35s ease-in-out;
+}
+.btn-brand:hover {
+  background-image: linear-gradient(
+    to right,
+    #3a4256 0%,
+    #1cc7c1 51%,
+    #3a4256 100%
+  );
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
